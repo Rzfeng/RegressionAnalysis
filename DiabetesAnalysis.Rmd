@@ -66,7 +66,7 @@ which(duplicated(new.fast[,1]))
 new.fast = new.fast[-257,]
 new.fast$value = as.numeric(new.fast$value)
 new.fast$region = as.numeric(new.fast$region)
-county_choropleth(new.fast, title = "Fast Food")
+county_choropleth(new.fast, title = "Number of Fast Food Chains in Region")
 
 ```
 
